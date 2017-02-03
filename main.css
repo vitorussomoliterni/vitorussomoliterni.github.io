@@ -1,6 +1,6 @@
 body {
 	font-family: "Nunito Sans", Arial, sans-serif;
-	color: black;
+	color: white;
 	background-color: #ff8138;
 	height: 300px;
     margin: auto;
@@ -14,6 +14,7 @@ body {
 
 a {
 	color: white;
+	text-decoration: none;
 }
 
 p {
