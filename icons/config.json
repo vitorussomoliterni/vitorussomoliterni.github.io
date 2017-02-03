@@ -7,22 +7,22 @@
   "ascent": 850,
   "glyphs": [
     {
-      "uid": "0f6a2573a7b6df911ed199bb63717e27",
-      "css": "github-circled",
-      "code": 61595,
-      "src": "fontawesome"
-    },
-    {
-      "uid": "bf882b30900da12fca090d9796bc3030",
-      "css": "mail",
+      "uid": "09cad6e46ec29b279626434802012bba",
+      "css": "linkedin",
       "code": 59392,
-      "src": "fontawesome"
+      "src": "elusive"
     },
     {
-      "uid": "21adad41ffebf469b2370d26bcb8a3c4",
-      "css": "linkedin-circled",
-      "code": 62233,
-      "src": "entypo"
+      "uid": "aa18911cd641967c899c575aeb80cd7e",
+      "css": "github",
+      "code": 59393,
+      "src": "elusive"
+    },
+    {
+      "uid": "b6ef4443ecc502136135437837d9724b",
+      "css": "mail",
+      "code": 59394,
+      "src": "elusive"
     }
   ]
 }
