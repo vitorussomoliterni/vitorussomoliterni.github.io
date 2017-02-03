@@ -2,13 +2,16 @@ body {
 	font-family: "Nunito Sans", Arial, sans-serif;
 	color: white;
 	background-color: #ff8138;
+}
+
+.content {
 	height: 300px;
-    margin: auto;
-    position: absolute;
+	margin: auto;
+	position: absolute;
 	left: 0;
-    right: 0;
-    bottom: 0;
-    top: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
 	text-align: center;
 }
 
@@ -17,7 +20,7 @@ a {
 	text-decoration: none;
 }
 
-p {
+.text-title {
 	font-size: 26px;
 }
 
