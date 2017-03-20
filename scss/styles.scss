@@ -338,7 +338,7 @@ footer {
     position: relative;
     background-size: cover;
     padding: 250px 15px;
-    height: 100vh;
+    max-height: 100vh;
 }
 
 #lead-content {
@@ -817,6 +817,10 @@ footer {
         a {
             padding: 10px 20px;
         }
+    }
+
+    #lead-down {
+        display: none;
     }
 
     .education-block {
