@@ -440,6 +440,16 @@ footer {
         color: $text;
         margin: 0;
     }
+
+    #about-content {
+        background: #fff;
+        border: 1px solid #e6e6e6;
+        padding: 15px;
+        border-radius: 3px;
+        text-align: left;
+        max-width: 700px;
+        margin: 0 auto 30px auto;
+    }
 }
 
 /*
