@@ -141,7 +141,7 @@ header {
     left: 0;
     right: 0;
     text-align: center;
-    z-index: 10;
+    z-index: 100;
     animation-name: dropHeader;
     animation-iteration-count: 1;
     animation-timing-function: ease;
@@ -338,6 +338,8 @@ footer {
     position: relative;
     background-size: cover;
     padding: 250px 15px;
+    max-height: 100vh;
+    margin-top: 64px;
 }
 
 #lead-content {
