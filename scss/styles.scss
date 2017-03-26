@@ -226,6 +226,10 @@ header {
 
 footer {
     padding: 50px 0;
+
+    a, :hover, :visited {
+        color: lighten($base-color, 10%);
+    }
 }
 
 .copyright {
