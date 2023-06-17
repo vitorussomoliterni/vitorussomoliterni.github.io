@@ -79,4 +79,13 @@
         $('header, body').removeClass('active');
     });
 
+    // Select the element that will display the current year
+    const currentYearElement = $('#currentYear');
+
+    // Get the current year
+    const currentYear = new Date().getFullYear();
+
+    // Update the content of the element with the current year
+    currentYearElement.text(currentYear);
+
 })(jQuery);
