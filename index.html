@@ -1,110 +1,79 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en">
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
     <title>Vito Russo Moliterni</title>
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
-    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <style>
+        @font-face {
+            font-family: 'Fira Code';
+            src: url('fonts/FiraCode-Regular.ttf') format('truetype');
+        }
+
+        body {
+            background-color: #ff8138;
+            color: white;
+            font-family: 'Fira Code', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.5em;
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .icons {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        .icon {
+            fill: white;
+            width: 60px;
+            height: 60px;
+            margin-right: 10px;
+        }
+    </style>
 </head>
 
 <body>
-    <div id="mobile-menu-open" class="shadow-large">
-        <i class="fa fa-bars" aria-hidden="true"></i>
+    <h1>Vito Russo Moliterni</h1>
+    <div class="icons">
+        <a class="icon" href="https://gitlab.com/vitorussomoliterni" target="_blank">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512">
+                <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path
+                    d="M48 32H400C426.5 32 448 53.5 448 80V432C448 458.5 426.5 480 400 480H48C21.5 480 0 458.5 0 432V80C0 53.5 21.5 32 48 32zM382.1 224.9L337.5 108.5C336.6 106.2 334.9 104.2 332.9 102.9C331.3 101.9 329.5 101.3 327.7 101.1C325.9 100.9 324 101.2 322.3 101.8C320.6 102.5 319 103.5 317.8 104.9C316.6 106.3 315.7 107.9 315.2 109.7L285 201.9H162.1L132.9 109.7C132.4 107.9 131.4 106.3 130.2 104.9C128.1 103.6 127.4 102.5 125.7 101.9C123.1 101.2 122.1 100.1 120.3 101.1C118.5 101.3 116.7 101.9 115.1 102.9C113.1 104.2 111.5 106.2 110.6 108.5L65.94 224.9L65.47 226.1C59.05 242.9 58.26 261.3 63.22 278.6C68.18 295.9 78.62 311.1 92.97 321.9L93.14 322L93.52 322.3L161.4 373.2L215.6 414.1C217.1 415.1 220.9 416.9 223.9 416.9C226.9 416.9 229.9 415.1 232.3 414.1L286.4 373.2L354.8 322L355 321.9C369.4 311 379.8 295.8 384.8 278.6C389.7 261.3 388.1 242.9 382.5 226.1L382.1 224.9z" />
+            </svg>
+        </a>
+        <a class="icon" href="https://www.linkedin.com/in/vitorussomoliterni" target="_blank">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512">
+                <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path
+                    d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z" />
+            </svg>
+        </a>
     </div>
-    <!-- End #mobile-menu-toggle -->
-    <header>
-        <div id="mobile-menu-close">
-            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
-        </div>
-        <ul id="menu" class="shadow">
-            <li>
-                <a href="#about">About</a>
-            </li>
-            <li>
-                <a href="#skills">Skills</a>
-            </li>
-        </ul>
-    </header>
-    <!-- End header -->
-
-    <div id="lead">
-        <div id="lead-content">
-            <h1>Vito Russo Moliterni</h1>
-            <h2>Software Developer</h2>
-            <div class="social">
-                <ul>
-                    <li><a href="mailto:mail@vitorm.me"><i class="fa fa-envelope-o"></i></a></li>
-                    <li><a href="https://gitlab.com/vitorussomoliterni" target="_blank"><i class="fa fa-gitlab"></i></a></li>
-                    <li><a href="https://linkedin.com/in/vitorussomoliterni" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                </ul>
-			</div>
-        </div>
-        <!-- End #lead-content -->
-
-        <div id="lead-overlay"></div>
-
-        <div id="lead-down">
-            <span>
-                <i class="fa fa-chevron-down" aria-hidden="true"></i>
-            </span>
-        </div>
-        <!-- End #lead-down -->
-    </div>
-    <!-- End #lead -->
-
-    <div id="about">
-        <div class="container">
-            <h2 class="heading">About Me</h2>
-            <div id="about-content" class="shadow-original">
-                <p>I come from a Country shaped like a boot and I like to tinker with software and stuff. I am always curious to find out how things works, and I'm driven by problem solving and optimisation.</p>
-                <p>In my free time, when I am away from a keyboard, I enjoy tabletop games, reading novels and comicbooks, cooking, and wandering around in nature.</p>
-            </div>
-        </div>
-    </div>
-    <!-- End #about -->
-
-    <div id="skills" class="background-alt">
-        <h2 class="heading">Skills</h2>
-        <ul>
-            <li>C#</li>
-            <li>.NET</li>
-            <li>.NET Core</li>
-            <li>Salesforce Apex</li>
-            <li>Salesforce Aura Components</li>
-            <li>Salesforce Lightning Web Components</li>
-            <li>Entity Framework</li>
-            <li>MVC</li>
-            <li>MS SQL</li>
-            <li>JavaScript</li>
-            <li>Git</li>
-        </ul>
-    </div>
-    <!-- End #skills -->
-
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-5 copyright">
-                    <p>Copyright &copy; 2017 - <span id="currentYear"></span> Vito Russo Moliterni</p>
-                    <p>After Ryan Fitzgerald's <a href="https://github.com/RyanFitzgerald/devportfolio-template/" target="_blank">Dev Portfolio Template</a></p>
-                </div>
-                <div class="top">
-                    <span id="to-top">
-                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
-                    </span>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- End footer -->
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/scripts.min.js"></script>
 </body>
+
 </html>
